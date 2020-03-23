@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\Scripts\exampleOne.ts" />
-    <Content Remove="wwwroot\Scripts\exampleTwo.ts" />
+    <None Remove="Client\Scripts\exampleOne.ts" />
+    <None Remove="Client\Scripts\exampleTwo.ts" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,10 +17,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <TypeScriptCompile Include="wwwroot\Scripts\exampleTwo.ts">
+    <TypeScriptCompile Update="Client\Scripts\exampleOne.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
-    <TypeScriptCompile Include="wwwroot\Scripts\exampleOne.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\" />
   </ItemGroup>
 
 
