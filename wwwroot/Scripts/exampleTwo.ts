@@ -4,11 +4,11 @@
 
 module BasicNamespace {
 
-    export class BaseApiApiService {
+    export class ExampleServiceTwo {
 
         constructor(private $http: ng.IHttpService) {
         }
     }
 
-    angular.module("ancEiss").service("BaseApiApiService", ["$http", BaseApiApiService]);
+    angular.module("ancEiss").service("ExampleServiceTwo", ["$http", ExampleServiceTwo]);
 }
