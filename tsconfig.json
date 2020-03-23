@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es6",
+    "moduleResolution": "Node",
+
+
+    "baseUrl": "wwwroot",
+    "typeRoots": ["./lib/types"]
+  },
+  "include": [
+    "wwwroot/Scripts/**/*"
+  ],
+  "exclude": [ "node_modules", "**/*.spec.ts" ],
+  "compileOnSave": true
+}
