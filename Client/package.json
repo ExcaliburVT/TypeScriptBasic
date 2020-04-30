@@ -6,7 +6,7 @@
     "angular": "1.7.9",
     "angular-material": "1.1.21",
     "bootstrap": "4.4.1",
-    "jquery": "3.4.1"
+    "jquery": "3.5.0"
   },
   "devDependencies": {
     "@types/angular": "1.6.57",
